@@ -7,30 +7,36 @@ import numpy as np
 
 # Custom CSS for styling
 st.markdown("""
-<style>
-    .stApp {
-        background: #f8f5e6;
-        background-image: radial-gradient(#d4d0c4 1px, transparent 1px);
-        background-size: 20px 20px;
-    }
-    .chat-font {
-        font-family: 'Times New Roman', serif;
-        color: #2c5f2d;
-    }
-    .user-msg {
-        background: #ffffff !important;
-        border-radius: 15px !important;
-        border: 2px solid #2c5f2d !important;
-    }
-    .bot-msg {
-        background: #fff9e6 !important;
-        border-radius: 15px !important;
-        border: 2px solid #ffd700 !important;
-    }
-    .stChatInput {
-        background: #ffffff;
-    }
+<style>     
+    .stApp {         
+        background: #ffff00; /* Changed to yellow */
+        background-image: radial-gradient(#d4d0c4 1px, transparent 1px);         
+        background-size: 20px 20px;     
+    }     
+
+    .chat-font {         
+        font-family: 'Times New Roman', serif;         
+        color: #000000; /* Changed to black */
+        font-size: smaller; /* Reduced font size */
+    }     
+
+    .user-msg {         
+        background: #ffffff !important;         
+        border-radius: 15px !important;         
+        border: 2px solid #2c5f2d !important;     
+    }     
+
+    .bot-msg {         
+        background: #fff9e6 !important;         
+        border-radius: 15px !important;         
+        border: 2px solid #ffd700 !important;     
+    }     
+
+    .stChatInput {         
+        background: #ffffff;     
+    } 
 </style>
+
 """, unsafe_allow_html=True)
 
 # Configure Google Gemini
