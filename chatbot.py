@@ -35,9 +35,14 @@ st.markdown("""
     }     
 
     .stChatInput {         
-        background: #ffffff;     
-        color: #000000 !important; /* Ensure input text is black */
+        background: #ffffff !important; /* White input background */
+        color: #000000 !important; /* Black text inside input box */
+        border: 2px solid #000000 !important; /* Black border for input box */
     } 
+
+    .stChatInput textarea {
+        color: #000000 !important; /* Ensures typed text inside the input box is black */
+    }
 </style>
 
 
