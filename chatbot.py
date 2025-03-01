@@ -9,7 +9,7 @@ import numpy as np
 st.markdown("""
 <style>     
     .stApp {         
-        background: #ffff00; /* Changed to yellow */
+        background: #fff9b0; /* Changed to yellow */
         background-image: radial-gradient(#d4d0c4 1px, transparent 1px);         
         background-size: 20px 20px;     
     }     
