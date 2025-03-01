@@ -9,14 +9,14 @@ import numpy as np
 st.markdown("""
 <style>     
     .stApp {         
-        background: #fff9b0; /* Changed to yellow */
+        background: #ff00ff; /* Magenta background */
         background-image: radial-gradient(#d4d0c4 1px, transparent 1px);         
         background-size: 20px 20px;     
     }     
 
     .chat-font {         
         font-family: 'Times New Roman', serif;         
-        color: #000000; /* Changed to black */
+        color: #000000 !important; /* Black font color */
         font-size: smaller; /* Reduced font size */
     }     
 
@@ -24,18 +24,22 @@ st.markdown("""
         background: #ffffff !important;         
         border-radius: 15px !important;         
         border: 2px solid #2c5f2d !important;     
+        color: #000000 !important; /* Ensure user message text is black */
     }     
 
     .bot-msg {         
         background: #fff9e6 !important;         
         border-radius: 15px !important;         
         border: 2px solid #ffd700 !important;     
+        color: #000000 !important; /* Ensure bot message text is black */
     }     
 
     .stChatInput {         
         background: #ffffff;     
+        color: #000000 !important; /* Ensure input text is black */
     } 
 </style>
+
 
 """, unsafe_allow_html=True)
 
